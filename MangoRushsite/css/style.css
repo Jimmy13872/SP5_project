@@ -1,0 +1,104 @@
+*{
+    box-sizing:border-box;
+}
+h2, h3{
+    margin: 0;
+}
+body{
+    background-color:  	#29d392;
+    margin: 20px 0;
+    font-family:Arial, roboto, sans-serif;
+}
+.wrapper{
+    width: 900px;
+    margin: 0 auto;
+    /*background-color:  	#f7f2e8;*/
+    background:url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png)
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+header{
+    padding: 50px;
+    overflow:hidden;
+    background-color:rgb(50, 148, 75);
+    border-radius: 10px;
+}
+
+header > #logo{
+    font-size: 2em;
+    float:left;
+    font-weight:bold;
+    font-family: roboto;
+    color: rgb(255, 255, 255);
+   
+}
+img{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav{
+    float:right;
+    
+}
+
+.container {
+    position: relative;
+    text-align:center;
+    color: #ffffff;
+    
+}
+
+.centered {
+    position: absolute;
+    font-size: 2em;
+    font-weight:bold;
+    font-family: Shannia;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+main{
+    padding: 50px;
+    overflow:hidden;
+}
+section{
+    width: 70%;
+    float:left;
+    
+}
+
+article{
+    padding: 30px 0;
+    border-bottom: 1px solid rgb(0, 31, 2);
+}
+
+article:last-child{
+    border-bottom: 0px;
+}
+
+aside{
+    width: 30%;
+    float:right;
+    background-color:#58df80; 
+    padding: 10px;
+}
+
+aside h3{
+    background-color:#24a739;
+    color:#fff;
+    padding:10px;
+    font-size:100%;
+    text-align:center;
+}
+
+footer{
+    padding: 20px;
+    border-top: 1px solid rgb(84, 238, 92);
+    text-align:center;
+}
